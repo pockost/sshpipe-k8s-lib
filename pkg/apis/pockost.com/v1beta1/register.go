@@ -5,7 +5,7 @@ import (
 	"k8s.io/apimachinery/pkg/runtime"
 	"k8s.io/apimachinery/pkg/runtime/schema"
 
-  pockostcom "github.com/pockost/sshpipe-k8s-lib/pkg/apis/pockost.com"
+	pockostcom "github.com/pockost/sshpipe-k8s-lib/pkg/apis/pockost.com"
 )
 
 // SchemeGroupVersion is group version used to register these objects
@@ -20,7 +20,7 @@ func Resource(resource string) schema.GroupResource {
 }
 
 var (
-  // localSchemeBuilder and AddToScheme will stay in k8s.io/kubernetes.
+	// localSchemeBuilder and AddToScheme will stay in k8s.io/kubernetes.
 	SchemeBuilder      runtime.SchemeBuilder
 	localSchemeBuilder = &SchemeBuilder
 	AddToScheme        = localSchemeBuilder.AddToScheme
@@ -32,7 +32,6 @@ func init() {
 	// makes the code compile even when the generated files are missing.
 	localSchemeBuilder.Register(addKnownTypes)
 }
-
 
 // Adds the list of known types to the given scheme.
 func addKnownTypes(scheme *runtime.Scheme) error {

@@ -1,5 +1,5 @@
 package pockostcom
 
 const (
-  GroupName = "pockost.com"
+	GroupName = "pockost.com"
 )

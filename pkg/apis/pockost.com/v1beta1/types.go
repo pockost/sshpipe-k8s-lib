@@ -1,7 +1,7 @@
 package v1beta1
 
 import (
-  metav1 "k8s.io/apimachinery/pkg/apis/meta/v1"
+	metav1 "k8s.io/apimachinery/pkg/apis/meta/v1"
 )
 
 // +genclient
@@ -10,7 +10,7 @@ import (
 
 // SshPipe is a top-level type
 type SshPipe struct {
-	metav1.TypeMeta `json:",inline"`
+	metav1.TypeMeta   `json:",inline"`
 	metav1.ObjectMeta `json:"metadata,omitempty"`
 
 	Spec SshPipeSpec `json:"spec"`
@@ -18,12 +18,12 @@ type SshPipe struct {
 
 // SshPipeSpec is the spec for a SshPipe resource
 type SshPipeSpec struct {
-  Users []string `json:"users"`
-  Target TargetSpec `json:"target"`
+	Users  []string   `json:"users"`
+	Target TargetSpec `json:"target"`
 }
 type TargetSpec struct {
-  Name string `json:"name"`
-  Port int    `json:"port,omitempty"`
+	Name string `json:"name"`
+	Port int    `json:"port"`
 }
 
 // +k8s:deepcopy-gen:interfaces=k8s.io/apimachinery/pkg/runtime.Object
