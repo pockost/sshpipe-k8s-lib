@@ -21,7 +21,7 @@ package versioned
 import (
 	"fmt"
 
-	pockostv1beta1 "github.com/pockost/sshpipe-k8s-lib/pkg/client/clientset/versioned/typed/pockost.com/v1beta1"
+	pockostv1beta1 "github.com/saturncloud/sshpipe-k8s-lib/pkg/client/clientset/versioned/typed/pockost.com/v1beta1"
 	discovery "k8s.io/client-go/discovery"
 	rest "k8s.io/client-go/rest"
 	flowcontrol "k8s.io/client-go/util/flowcontrol"

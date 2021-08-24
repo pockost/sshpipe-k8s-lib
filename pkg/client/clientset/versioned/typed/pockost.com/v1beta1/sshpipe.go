@@ -22,8 +22,8 @@ import (
 	"context"
 	"time"
 
-	v1beta1 "github.com/pockost/sshpipe-k8s-lib/pkg/apis/pockost.com/v1beta1"
-	scheme "github.com/pockost/sshpipe-k8s-lib/pkg/client/clientset/versioned/scheme"
+	v1beta1 "github.com/saturncloud/sshpipe-k8s-lib/pkg/apis/pockost.com/v1beta1"
+	scheme "github.com/saturncloud/sshpipe-k8s-lib/pkg/client/clientset/versioned/scheme"
 	v1 "k8s.io/apimachinery/pkg/apis/meta/v1"
 	types "k8s.io/apimachinery/pkg/types"
 	watch "k8s.io/apimachinery/pkg/watch"

@@ -19,7 +19,7 @@ limitations under the License.
 package fake
 
 import (
-	pockostv1beta1 "github.com/pockost/sshpipe-k8s-lib/pkg/apis/pockost.com/v1beta1"
+	pockostv1beta1 "github.com/saturncloud/sshpipe-k8s-lib/pkg/apis/pockost.com/v1beta1"
 	v1 "k8s.io/apimachinery/pkg/apis/meta/v1"
 	runtime "k8s.io/apimachinery/pkg/runtime"
 	schema "k8s.io/apimachinery/pkg/runtime/schema"

@@ -21,7 +21,7 @@ package fake
 import (
 	"context"
 
-	v1beta1 "github.com/pockost/sshpipe-k8s-lib/pkg/apis/pockost.com/v1beta1"
+	v1beta1 "github.com/saturncloud/sshpipe-k8s-lib/pkg/apis/pockost.com/v1beta1"
 	v1 "k8s.io/apimachinery/pkg/apis/meta/v1"
 	labels "k8s.io/apimachinery/pkg/labels"
 	schema "k8s.io/apimachinery/pkg/runtime/schema"
