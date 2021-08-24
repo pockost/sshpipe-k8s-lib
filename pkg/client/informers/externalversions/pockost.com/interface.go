@@ -19,8 +19,8 @@ limitations under the License.
 package pockost
 
 import (
-	internalinterfaces "github.com/pockost/sshpipe-k8s-lib/pkg/client/informers/externalversions/internalinterfaces"
-	v1beta1 "github.com/pockost/sshpipe-k8s-lib/pkg/client/informers/externalversions/pockost.com/v1beta1"
+	internalinterfaces "github.com/saturncloud/sshpipe-k8s-lib/pkg/client/informers/externalversions/internalinterfaces"
+	v1beta1 "github.com/saturncloud/sshpipe-k8s-lib/pkg/client/informers/externalversions/pockost.com/v1beta1"
 )
 
 // Interface provides access to each of this group's versions.

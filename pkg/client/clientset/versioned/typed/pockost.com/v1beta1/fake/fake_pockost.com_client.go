@@ -19,7 +19,7 @@ limitations under the License.
 package fake
 
 import (
-	v1beta1 "github.com/pockost/sshpipe-k8s-lib/pkg/client/clientset/versioned/typed/pockost.com/v1beta1"
+	v1beta1 "github.com/saturncloud/sshpipe-k8s-lib/pkg/client/clientset/versioned/typed/pockost.com/v1beta1"
 	rest "k8s.io/client-go/rest"
 	testing "k8s.io/client-go/testing"
 )

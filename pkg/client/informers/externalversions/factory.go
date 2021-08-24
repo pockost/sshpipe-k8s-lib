@@ -23,9 +23,9 @@ import (
 	sync "sync"
 	time "time"
 
-	versioned "github.com/pockost/sshpipe-k8s-lib/pkg/client/clientset/versioned"
-	internalinterfaces "github.com/pockost/sshpipe-k8s-lib/pkg/client/informers/externalversions/internalinterfaces"
-	pockostcom "github.com/pockost/sshpipe-k8s-lib/pkg/client/informers/externalversions/pockost.com"
+	versioned "github.com/saturncloud/sshpipe-k8s-lib/pkg/client/clientset/versioned"
+	internalinterfaces "github.com/saturncloud/sshpipe-k8s-lib/pkg/client/informers/externalversions/internalinterfaces"
+	pockostcom "github.com/saturncloud/sshpipe-k8s-lib/pkg/client/informers/externalversions/pockost.com"
 	v1 "k8s.io/apimachinery/pkg/apis/meta/v1"
 	runtime "k8s.io/apimachinery/pkg/runtime"
 	schema "k8s.io/apimachinery/pkg/runtime/schema"

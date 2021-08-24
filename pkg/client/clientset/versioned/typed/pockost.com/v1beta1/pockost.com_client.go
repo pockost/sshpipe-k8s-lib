@@ -19,8 +19,8 @@ limitations under the License.
 package v1beta1
 
 import (
-	v1beta1 "github.com/pockost/sshpipe-k8s-lib/pkg/apis/pockost.com/v1beta1"
-	"github.com/pockost/sshpipe-k8s-lib/pkg/client/clientset/versioned/scheme"
+	v1beta1 "github.com/saturncloud/sshpipe-k8s-lib/pkg/apis/pockost.com/v1beta1"
+	"github.com/saturncloud/sshpipe-k8s-lib/pkg/client/clientset/versioned/scheme"
 	rest "k8s.io/client-go/rest"
 )
 

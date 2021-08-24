@@ -19,7 +19,7 @@ limitations under the License.
 package v1beta1
 
 import (
-	internalinterfaces "github.com/pockost/sshpipe-k8s-lib/pkg/client/informers/externalversions/internalinterfaces"
+	internalinterfaces "github.com/saturncloud/sshpipe-k8s-lib/pkg/client/informers/externalversions/internalinterfaces"
 )
 
 // Interface provides access to all the informers in this group version.

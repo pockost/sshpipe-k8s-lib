@@ -19,9 +19,9 @@ limitations under the License.
 package fake
 
 import (
-	clientset "github.com/pockost/sshpipe-k8s-lib/pkg/client/clientset/versioned"
-	pockostv1beta1 "github.com/pockost/sshpipe-k8s-lib/pkg/client/clientset/versioned/typed/pockost.com/v1beta1"
-	fakepockostv1beta1 "github.com/pockost/sshpipe-k8s-lib/pkg/client/clientset/versioned/typed/pockost.com/v1beta1/fake"
+	clientset "github.com/saturncloud/sshpipe-k8s-lib/pkg/client/clientset/versioned"
+	pockostv1beta1 "github.com/saturncloud/sshpipe-k8s-lib/pkg/client/clientset/versioned/typed/pockost.com/v1beta1"
+	fakepockostv1beta1 "github.com/saturncloud/sshpipe-k8s-lib/pkg/client/clientset/versioned/typed/pockost.com/v1beta1/fake"
 	"k8s.io/apimachinery/pkg/runtime"
 	"k8s.io/apimachinery/pkg/watch"
 	"k8s.io/client-go/discovery"
