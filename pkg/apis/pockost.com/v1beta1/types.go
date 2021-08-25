@@ -27,6 +27,7 @@ type TargetSpec struct {
 	Name string `json:"name"`
 	Port int    `json:"port"`
 	User string `json:"user"`
+	Namespace string `json:"namespace"`
 }
 
 // +k8s:deepcopy-gen:interfaces=k8s.io/apimachinery/pkg/runtime.Object
