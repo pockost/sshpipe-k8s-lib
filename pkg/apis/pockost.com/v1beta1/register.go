@@ -5,7 +5,7 @@ import (
 	"k8s.io/apimachinery/pkg/runtime"
 	"k8s.io/apimachinery/pkg/runtime/schema"
 
-	pockostcom "github.com/saturncloud/sshpipe-k8s-lib/pkg/apis/pockost.com"
+	pockostcom "github.com/pockost/sshpipe-k8s-lib/pkg/apis/pockost.com"
 )
 
 // SchemeGroupVersion is group version used to register these objects
